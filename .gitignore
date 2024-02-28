@@ -1,0 +1,9 @@
+# vs code
+.vscode/*
+
+# node modueles
+node_modules
+
+# todos
+todo.txt
+

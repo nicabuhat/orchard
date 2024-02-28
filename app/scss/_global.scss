@@ -1,0 +1,24 @@
+:root {
+  --cl-black: #1e1e1e;
+  --cl-white: #ffffff;
+  --cl-gray: #bfbfbf;
+  --cl-red: #bf2e37;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
+  background-color: var(--cl-black);
+  color: var(--cl-white);
+  line-height: 1.3;
+}

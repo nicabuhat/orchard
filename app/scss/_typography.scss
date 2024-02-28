@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../app/assets/fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../app/assets/fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../app/assets/fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSansCondensed";
+  src: url("../app/assets/OpenSans_SemiCondensed-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--cl-white);
+}
+
+.h1 {
+  font-size: 42px;
+}
+
+.h2 {
+  font-size: 24px;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+// h1 {
+//   font-size: 2rem;
+
+//   @media #{$mq-1000-up} {
+//     font-size: 3rem;
+//   }
+// }
+
+// h2 {
+//   font-size: 1.5rem;
+
+//   @media #{$mq-1000-up} {
+//     font-size: 2rem;
+//   }
+// }
+
+// h3 {
+//   font-size: 1.25rem;
+
+//   @media #{$mq-1000-up} {
+//     font-size: 1.5rem;
+//   }
+// }
