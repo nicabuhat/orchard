@@ -1,8 +1,8 @@
 :root {
-  --cl-black: #1e1e1e;
+  --cl-black: #0f1414;
   --cl-white: #ffffff;
   --cl-gray: #bfbfbf;
-  --cl-red: #bf2e37;
+  --cl-red: #bc2e37;
 }
 
 html {
@@ -17,8 +17,30 @@ html {
 }
 
 body {
-  padding: 20px;
   background-color: var(--cl-black);
   color: var(--cl-white);
-  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.color-accent {
+  color: var(--cl-red);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }

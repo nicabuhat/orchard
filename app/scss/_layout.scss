@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.component_1 {
+  max-height: 600px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "row1 row12 row2 "
+    "row1 row22 row2";
+  align-items: start;
+
+  & > * {
+    height: 100%;
+  }
+}
+
+.row-1 {
+  grid-area: row1;
+}
+.row-1-2 {
+  grid-area: row12;
+}
+
+.row-2-2 {
+  grid-area: row22;
+}
+.row-2 {
+  grid-area: row2;
+}
