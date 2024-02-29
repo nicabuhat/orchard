@@ -25,6 +25,15 @@ body {
   font-size: 18px;
   color: var(--cl-white);
   line-height: 1.8;
+
+  @media #{$mq-1000-down} {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  @media #{$mq-900-down} {
+    font-size: 14px;
+  }
 }
 
 h1,
@@ -47,15 +56,39 @@ a {
   font-size: 42px;
   text-align: center;
   margin-bottom: 4rem;
+
+  @media #{$mq-1000-down} {
+    font-size: 36px;
+  }
+
+  @media #{$mq-900-down} {
+    font-size: 24px;
+  }
 }
 
 .h2 {
   font-size: 24px;
+
+  @media #{$mq-1000-down} {
+    font-size: 20px;
+  }
+
+  @media #{$mq-900-down} {
+    font-size: 18px;
+  }
 }
 
 .h3 {
   font-size: 18px;
   color: var(--cl-white);
+
+  @media #{$mq-1000-down} {
+    font-size: 16px;
+  }
+
+  @media #{$mq-900-down} {
+    font-size: 14px;
+  }
 }
 
 .text-light {
@@ -73,6 +106,10 @@ a {
 
 .inset {
   font-size: 16px;
+
+  @media #{$mq-900-down} {
+    font-size: 14px;
+  }
 }
 
 .uppercase {

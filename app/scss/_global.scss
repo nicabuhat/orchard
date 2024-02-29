@@ -28,13 +28,25 @@ main {
   width: 100%;
   margin: 0 auto;
 
-  @media #{$mq-1180-down} {
+  @media #{$mq-1400-down} {
     max-width: 1100px;
+  }
+
+  @media #{$mq-1180-down} {
+    max-width: 1000px;
+  }
+
+  @media #{$mq-1000-down} {
+    max-width: 900px;
   }
 }
 
 section {
   min-height: 100vh;
+
+  @media #{$mq-1180-down} {
+    padding: 10vh 4vh;
+  }
 }
 
 .color-accent {

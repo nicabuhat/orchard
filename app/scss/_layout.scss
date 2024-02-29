@@ -3,6 +3,10 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
   width: 100%;
+
+  @media #{$mq-1000-down} {
+    gap: 12px;
+  }
 }
 
 .component_1 {
@@ -14,8 +18,13 @@
     max-width: 100%;
   }
 
+  @media #{$mq-1400-down} {
+    min-height: max-content;
+  }
+
   @media #{$mq-1180-down} {
-    height: min-content;
+    min-height: 100vh;
+    height: 100%;
   }
 }
 
@@ -24,6 +33,10 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 24px;
+
+  @media #{$mq-1000-down} {
+    gap: 12px;
+  }
 
   & > * {
     max-width: 100%;
