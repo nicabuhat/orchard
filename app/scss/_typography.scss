@@ -34,6 +34,11 @@ body {
   @media #{$mq-900-down} {
     font-size: 14px;
   }
+
+  @media #{$mq-760-down} {
+    font-size: 18px;
+    line-height: 1.6;
+  }
 }
 
 h1,
@@ -64,6 +69,10 @@ a {
   @media #{$mq-900-down} {
     font-size: 24px;
   }
+
+  @media #{$mq-760-down} {
+    font-size: 32px;
+  }
 }
 
 .h2 {
@@ -75,6 +84,10 @@ a {
 
   @media #{$mq-900-down} {
     font-size: 18px;
+  }
+
+  @media #{$mq-760-down} {
+    font-size: 24px;
   }
 }
 
@@ -88,6 +101,10 @@ a {
 
   @media #{$mq-900-down} {
     font-size: 14px;
+  }
+
+  @media #{$mq-760-down} {
+    font-size: 18px;
   }
 }
 
@@ -109,6 +126,10 @@ a {
 
   @media #{$mq-900-down} {
     font-size: 14px;
+  }
+
+  @media #{$mq-760-down} {
+    font-size: 16px;
   }
 }
 
