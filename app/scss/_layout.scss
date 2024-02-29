@@ -6,28 +6,22 @@
 }
 
 .component_1 {
-  max-height: 600px;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    "row1 row12 row2 "
-    "row1 row22 row2";
+  height: 600px;
   align-items: start;
 
   & > * {
     height: 100%;
+    max-width: 100%;
   }
 }
 
-.row-1 {
-  grid-area: row1;
-}
-.row-1-2 {
-  grid-area: row12;
-}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
 
-.row-2-2 {
-  grid-area: row22;
-}
-.row-2 {
-  grid-area: row2;
+  & > * {
+    max-width: 100%;
+  }
 }
