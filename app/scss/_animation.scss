@@ -1,0 +1,33 @@
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#img-1 {
+  opacity: 0;
+  animation: slideDown 0.6s ease-out forwards;
+}
+#img-2 {
+  opacity: 0;
+  animation: slideDown 0.6s 0.3s ease-out forwards;
+}
+#img-3 {
+  opacity: 0;
+  animation: slideDown 0.6s 0.6s ease-out forwards;
+}
+
+.component_1 > div:last-of-type {
+  opacity: 0;
+  animation: slideDown 0.6s 0.9s ease-out forwards;
+}
+
+.animate {
+  opacity: 0;
+  animation: slideDown 0.6s ease-out forwards;
+}
