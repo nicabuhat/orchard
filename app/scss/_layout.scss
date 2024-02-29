@@ -16,11 +16,19 @@
   & > * {
     height: 100%;
     max-width: 100%;
+
+    @media #{$mq-620-down} {
+      width: 100%;
+    }
   }
 
   & > *:last-child {
     @media #{$mq-760-down} {
       grid-column: span 2;
+    }
+
+    @media #{$mq-620-down} {
+      grid-column: span 1;
     }
   }
 
@@ -37,6 +45,12 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     width: 80%;
     text-align: center;
+  }
+
+  @media #{$mq-620-down} {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -66,7 +80,6 @@
     @media #{$mq-760-down} {
       display: flex;
       flex-direction: column;
-      padding: 0 20px;
       text-align: center;
     }
 
@@ -75,11 +88,15 @@
         width: 70%;
         margin: 0 auto 24px;
       }
+
+      @media #{$mq-620-down} {
+        width: 100%;
+      }
     }
 
     p {
       @media #{$mq-760-down} {
-        width: 51ch;
+        max-width: 71ch;
       }
     }
 
